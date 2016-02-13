@@ -2,7 +2,7 @@
 title: 天梯全自动代理--免费翻墙利器
 email: tiantidaili@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  个人博客。
+  天梯发布。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tianti.io" # the base hostname & protocol for your site
 #twitter_username: tianti
