@@ -1,9 +1,8 @@
 # Site settings
 title: 天梯翻墙，科学上网
 email: tiantidaili@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description:  # this means to ignore newlines until "baseurl:"
   本站为天梯代理软件信息发布网站。
-  
   本站介绍请参考<a href="http://tianti.io/2015/08/01/about.html">“关于天梯代理”</a>。
 
 baseurl: "" # the subpath of your site, e.g. /blog/
