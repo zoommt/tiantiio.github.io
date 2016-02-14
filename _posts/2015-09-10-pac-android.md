@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PAC免费代理脚本--Windows
+title: PAC免费代理脚本--Android
 tags: 
 ---
 
