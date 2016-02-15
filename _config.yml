@@ -9,6 +9,6 @@ url: "http://tianti.io" # the base hostname & protocol for your site
 #twitter_username: tianti
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 
 permalink: /:year/:month/:day/:title.html
