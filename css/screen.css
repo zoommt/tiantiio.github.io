@@ -199,3 +199,9 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+  
+  /* udf */
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
