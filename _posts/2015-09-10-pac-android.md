@@ -10,7 +10,12 @@ PAC地址：```http://tianti.io/n.pac```
 
 
 ###Android 设置
-####安装 ProxyDroid 应用实现 PAC 代理，注意：5.0以下系统不支持此设置。
+Android下有两种方式设置Pac代理：
+* 安装 ProxyDroid 应用实现 PAC 代理，注意：5.0以下系统不支持此设置。
+* 使用Drony来配置PAC代理,该应用支持Android 3.x以上系统。
+
+以下分别介绍。
+#### 1）安装 ProxyDroid 应用实现 PAC 代理
 
 应用简介：
 
@@ -31,7 +36,7 @@ ProxyDroid 可以帮助您设置您的 Android 设备上的代理（HTTP / SOCKS
 ![pac1](http://tianti.io/images/pac-android-1.png)
 
  
-####使用Drony来配置PAC代理,该应用支持Android 3.x以上系统。
+#### 2）使用Drony来配置PAC代理,该应用支持Android 3.x以上系统。
 **1. 打开 Drony，进入 Setting 在 WiFi 下，选择你正在使用的 WiFi 网络：**
 
 ![pac2](http://tianti.io/images/pac-android-2.png)
@@ -60,4 +65,3 @@ PAC脚本地址：http://tianti.io/n.pac
 3G 网络环境：进入 APN 设置，修改代理和端口:
 
 ![pac8](http://tianti.io/images/pac-android-8.png)
- 
