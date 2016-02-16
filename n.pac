@@ -1,6 +1,5 @@
-// https://pac.itzmx.com
+// http://tianti.io/n.pac
 
-//var proxy = "PROXY 108.61.217.240:25;";   //us
 var proxy = "PROXY 45.32.86.248:25;";   //us
 
 var domains = {

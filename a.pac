@@ -1,10 +1,9 @@
-// https://pac.itzmx.com
+// http://tianti.io/a.pac
 
-//var proxy = "PROXY 108.61.217.240:25;";   //us
 var proxy = "PROXY 45.32.86.248:25;";   //us
 
 var domains = {
-  "zyzc9.com": 1
+  "localhost": 1
 };
 
 var direct = 'DIRECT;';
