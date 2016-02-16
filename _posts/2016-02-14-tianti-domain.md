@@ -10,13 +10,16 @@ tianti.io
 ```
 
 对新域名的解读：
+
 * **tianti**：天梯汉语拼音。
 * **io**：i表示input，o标识output。天梯作为代理，在中间起到输入输出的转发作用。
+
 
 PAC代理地址也同时更新到新域名，地址为：
 ```
 http://tianti.io/n.pac
 ```
+
 其他地址请参考：[PAC免费代理地址](http://tianti.io/2015/08/08/proxy.html)。
 
 代理设置教程请参考：[PAC代理设置教程（全平台）](http://tianti.io/2015/09/20/pac-all.html)
