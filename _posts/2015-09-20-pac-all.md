@@ -18,7 +18,7 @@ PAC地址：```http://tianti.io/n.pac```
 
 ![pac2](http://tianti.io/images/pac-windows-2.png)
 
-**3. 本地化用 PAC 文件方法: 首先，打开 PAC 文件地址，下载abc.pac文件到C盘根目录下，而本地PAC地址则为：file://C:/abc.pac**
+**3. 本地化用 PAC 文件方法: 首先，打开 PAC 文件地址，下载n.pac文件到C盘根目录下，而本地PAC地址则为：file://C:/n.pac**
 
 ![pac3](http://tianti.io/images/pac-windows-3.png)
 
