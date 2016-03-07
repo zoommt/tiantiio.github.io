@@ -15,6 +15,7 @@ var domains = {
   "s3.amazonaws.com": 1,
   "images-amazon.com": 1,
   "d.chenqiwei.com": 1,
+  "sumologic.com": 1,
   "blogspot.com": 1,
   "vpsdime.com": 1,
   "teamviewer.com": 1,
