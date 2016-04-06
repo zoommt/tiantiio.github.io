@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PAC代理设置教程（全平台）</title>
+  <meta name="description" content="最近翻墙姿势中 PAC 方式可算是“热”了，其设置非常简单，不需要安装客户端；可以设置系统代理或者配合浏览器代理插件使用，而且支持各种平台，这是受欢迎原因之一吧。下面是教程整理。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://tianti.io/2015/09/20/pac-all.html">
+  <link rel="alternate" type="application/rss+xml" title="天梯翻墙，科学上网" href="http://tianti.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">天梯翻墙，科学上网</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">关于</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+    <header class="post-header">
+        <h1 class="post-title">PAC代理设置教程（全平台）</h1>
+        <p class="post-meta">Sep 20, 2015</p>
+    </header>
+    <article class="post-content">
+        <p>最近翻墙姿势中 PAC 方式可算是“热”了，其设置非常简单，不需要安装客户端；可以设置系统代理或者配合浏览器代理插件使用，而且支持各种平台，这是受欢迎原因之一吧。下面是教程整理。</p>
+
+<p>PAC地址：<code class="highlighter-rouge">http://tianti.io/n.pac</code></p>
+
+<h3 id="windows-">Windows 设置</h3>
+
+<p>1.Internet 选项 -&gt; 连接 选项卡 -&gt; 局域网设置(如果是电脑拨号上网, 这里点“设置”) -&gt; 使用自动配置脚本 -&gt; 填入PAC地址 -&gt; 确定：</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-windows-1.png" pac1="" /></p>
+</div>
+
+<p>2.如果已经装有浏览器代理插件(如 SwitchyOmega/FoxyProxy)只要填上 PAC 地址或导入就可以了：</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-windows-2.png" pac2="" /></p>
+</div>
+
+<p>3.本地化用 PAC 文件方法: 首先，打开 PAC 文件地址，下载n.pac文件到C盘根目录下，而本地PAC地址则为：file://C:/n.pac</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-windows-3.png" pac3="" /></p>
+</div>
+
+<h3 id="mac-os-x-">Mac OS X 设置</h3>
+
+<p>1.系统设置 -&gt; 网络 -&gt; 高级 -&gt; 代理 -&gt; 自动代理配置 -&gt; URL中填入PAC地址</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-mac-1.png" pac1="" /></p>
+</div>
+
+<h3 id="iosiphoneipad-">iOS(iPhone/iPad) 设置</h3>
+
+<p>1.打开设置, 选择Wi-Fi :</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-ios-1.png" pac1="" /></p>
+</div>
+
+<p>2.选择当前使用的热点:</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-ios-2.png" pac2="" /></p>
+</div>
+
+<p>3.拖到最下面的代理设置，选择“自动”，填写 PAC 地址:</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-ios-3.png" pac3="" /></p>
+</div>
+
+<h3 id="android-">Android 设置</h3>
+
+<p>Android下有两种方式设置Pac代理：</p>
+
+<ul>
+  <li>安装 ProxyDroid 应用实现 PAC 代理，注意：5.0以下系统不支持此设置。</li>
+  <li>使用Drony来配置PAC代理,该应用支持Android 3.x以上系统。</li>
+</ul>
+
+<p>以下分别介绍。</p>
+
+<h4 id="proxydroid--pac-">1）安装 ProxyDroid 应用实现 PAC 代理</h4>
+
+<p>应用简介：</p>
+
+<p>ProxyDroid 可以帮助您设置您的 Android 设备上的代理（HTTP / SOCKS4/ SOCKS5）,需要 root 权限,TIPS：按 MENU 按钮，找到【恢复】选项，这将有助于您恢复/重置代理服务器的设置，当你设置出现错误。</p>
+
+<p>特点：</p>
+
+<ol>
+  <li>支持HTTP / SOCKS4/ SOCKS5代理。</li>
+  <li>支持基本/ NTLM/ NTLMv2身份验证方法 。</li>
+  <li>可以选择哪一个应用程序通过代理访问 。</li>
+  <li>支持多个配置文件 。</li>
+  <li>绑定配置到无线网络SSID/移动网络（2G/ 3G） 。</li>
+  <li>小部件快速开/关代理切换 。</li>
+  <li>低电池和内存消耗（完全用C语言编写，并作为本机二进制编译） 。</li>
+  <li>绕过内部网IP地址。</li>
+  <li>DNS代理,允许在防火墙内解析外部地址。</li>
+</ol>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-1.png" pac1="" /></p>
+
+</div>
+
+<h4 id="dronypac">2）使用Drony来配置PAC代理</h4>
+
+<p>1.打开 Drony，进入 Setting 在 WiFi 下，选择你正在使用的 WiFi 网络：</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-2.png" pac2="" /></p>
+</div>
+
+<p>在 3G/4G 网络环境中，则选择 Setting for not listed networks</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-3.png" pac3="" /></p>
+</div>
+
+<p>2.修改 Script Proxy 设置，1.输入 PAC 地址，2.并下载，3.测试，4.保存。
+PAC脚本地址：http://tianti.io/n.pac</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-4.png" pac4="" /></p>
+</div>
+
+<p>3.修改 Proxy Type 为 Script:</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-5.png" pac5="" /></p>
+</div>
+
+<p>4.启动 Drony:</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-6.png" pac6="" /></p>
+</div>
+
+<p>5.修改系统代理设置,WiFi 网络环境：</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-7.png" pac7="" /></p>
+</div>
+
+<p>3G 网络环境：进入 APN 设置，修改代理和端口:</p>
+
+<div style="text-align:center">
+  <p><img src="http://tianti.io/images/pac-android-8.png" pac8="" /></p>
+</div>
+
+    </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col  footer-col-1">
+                <ul class="contact-list">
+                    <li>天梯翻墙，科学上网</li>
+                    <li><a href="mailto:tiantidaili@gmail.com">tiantidaili@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-col  footer-col-2">
+                <ul class="social-media-list">
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?114678d958452b51a230e93038b58155";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+  </body>
+
+</html>
