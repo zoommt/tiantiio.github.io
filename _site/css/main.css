@@ -309,6 +309,10 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+#ds-reset
+.ds-powered-by {
+  display: none; }
+
 /**
  * Syntax highlighting styles
  */
