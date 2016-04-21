@@ -1,0 +1,24 @@
+<head>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?114678d958452b51a230e93038b58155";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+var referrer = document.referrer;
+　document.write("refer");
+　document.write(referrer);
+
+var rd = "(^.*localhsost.*|.*localho3st.*)"
+if (referrer.match(rd)) {
+　	document.write("等待5秒跳转");
+//	window.location.href=document.referrer;
+	setTimeout("javascript:location.href=referrer", 5000)
+} 
+</script>
+
+</head>

@@ -1,6 +1,6 @@
 // http://tianti.io/n.pac
 
-var proxy = "PROXY 45.32.8.226:25;";   //jp
+var proxy = "PROXY 45.32.61.210:25;";   //jp
 
 var domains = {
   "onedrive.live.com": 1,
