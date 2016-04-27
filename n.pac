@@ -2042,6 +2042,7 @@ var domains = {
   "thkphoto.com": 1, 
   "thomasbernhard.org": 1, 
   "threatchaos.com": 1, 
+  "go-zh.org": 1,
   "throughnightsfire.com": 1, 
   "thumbzilla.com": 1, 
   "thywords.com": 1, 

@@ -1,6 +1,6 @@
 // http://tianti.io/n.pac
 
-var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.72.75:25; PROXY 45.32.8.226:25; PROXY 45.32.95.38:25;";
+var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.88.166:25; PROXY 45.32.8.226:25; PROXY 45.32.95.38:25;";
 
 var domains = {
   "onedrive.live.com": 1,
@@ -17,6 +17,7 @@ var domains = {
   "d.chenqiwei.com": 1,
   "sumologic.com": 1,
   "blogspot.com": 1,
+  "dw.com": 1,
   "vpsdime.com": 1,
   "teamviewer.com": 1,
   "truste.com": 1,
