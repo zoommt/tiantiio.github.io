@@ -20,6 +20,7 @@ var domains = {
   "dw.com": 1,
   "vpsdime.com": 1,
   "teamviewer.com": 1,
+  "reddit.com": 1,
   "truste.com": 1,
   "ml314.com": 1,
   "a.fsdn.com": 1,
