@@ -1,6 +1,6 @@
 // http://tianti.io/n.pac
 
-var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.88.166:25; PROXY 45.32.8.226:25; PROXY 45.32.95.38:25;";
+var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.59.108:25; PROXY 45.32.92.155:25; PROXY 45.32.23.127:25;";
 
 var domains = {
   "onedrive.live.com": 1,
@@ -2349,6 +2349,7 @@ var domains = {
   "wangjinbo.org": 1, 
   "wanglixiong.com": 1, 
   "wangruoshui.net": 1, 
+  "watchmygf.com": 1,
   "wangruowang.org": 1, 
   "want-daily.com": 1, 
   "wapedia.mobi": 1, 
