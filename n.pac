@@ -3,6 +3,7 @@
 var proxy = "PROXY pac.tianti.io:25;";
 
 var domains = {
+  "tianti.io": 1,
   "onedrive.live.com": 1,
   "blogsmithmedia.com": 1,
   "keepvid.com": 1,
