@@ -1,6 +1,6 @@
 // http://tianti.io/n.pac
 
-var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.88.166:25; PROXY 45.32.8.226:25; PROXY 45.32.95.38:25;";
+var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.60.109:25; PROXY 45.63.62.115:25; PROXY 108.61.207.23:25;";
 
 var domains = {
   "onedrive.live.com": 1,
@@ -20,6 +20,7 @@ var domains = {
   "dw.com": 1,
   "vpsdime.com": 1,
   "teamviewer.com": 1,
+  "reddit.com": 1,
   "truste.com": 1,
   "ml314.com": 1,
   "a.fsdn.com": 1,
@@ -2042,6 +2043,7 @@ var domains = {
   "thkphoto.com": 1, 
   "thomasbernhard.org": 1, 
   "threatchaos.com": 1, 
+  "go-zh.org": 1,
   "throughnightsfire.com": 1, 
   "thumbzilla.com": 1, 
   "thywords.com": 1, 
@@ -2347,6 +2349,7 @@ var domains = {
   "wangjinbo.org": 1, 
   "wanglixiong.com": 1, 
   "wangruoshui.net": 1, 
+  "watchmygf.com": 1,
   "wangruowang.org": 1, 
   "want-daily.com": 1, 
   "wapedia.mobi": 1, 

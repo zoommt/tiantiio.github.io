@@ -1,6 +1,6 @@
 // http://tianti.io/a.pac
 
-var proxy = "PROXY pac.tianti.io:25; PROXY 45.32.88.166:25; PROXY 45.32.8.226:25; PROXY 45.32.95.38:25;";  
+var proxy = "PROXY pac.tianti.io:25;";  
 
 var domains = {
   "localhost": 1
